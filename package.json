@@ -1,0 +1,23 @@
+{
+  "name": "great-nodejs",
+  "version": "1.0.0",
+  "description": "study node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnXi029/great-nodejs.git"
+  },
+  "author": "JohnXi029",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnXi029/great-nodejs/issues"
+  },
+  "homepage": "https://github.com/JohnXi029/great-nodejs#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "private":"true"
+}
