@@ -36,3 +36,69 @@
 
 // 字符串方法
 // console.log('   hello   '.trim());
+
+//  JSON
+// var obj = JSON.parse('{"name": "tom", "age": 18}');
+// console.log(obj.name);
+// console.log(obj.age);
+
+
+// function#bind
+// .bind允许改变对this的引用
+// function a() {
+//   console.log(this.hello == 'world'); // true
+// }
+// var b = a.bind({hello: 'world'});
+// b();
+
+
+// function # name
+// 始终推荐对函数进行命名，否则出错的时候可能找不到
+// var a = function woot() {};
+// console.log(a.name == 'woot');  // true
+
+
+// _proto_ 继承
+function Animal() {}
+function Ferret() {}
+Ferret.prototype._proto_ = Animal.prototype;
+
+
+// 存取器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
