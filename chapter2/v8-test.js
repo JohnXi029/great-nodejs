@@ -61,7 +61,16 @@
 // _proto_ 继承
 function Animal() {}
 function Ferret() {}
-Ferret.prototype._proto_ = Animal.prototype;
+Animal.prototype.talk = function () {
+  console.log("hahahah");
+};
+Ferret.prototype.__proto__ = Animal.prototype;
+
+var animal = new Animal();
+var ferret = new Ferret();
+
+animal.talk();
+ferret.talk();
 
 
 // 存取器
