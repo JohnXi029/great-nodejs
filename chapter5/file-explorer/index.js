@@ -12,6 +12,7 @@ fs.readdir(process.cwd(), (err, files) => {
   
   console.log('Select which file or directory you want to see:\n');
   
+  // 递归，遍历所有的文件和文件夹
   function file(i) {
     
     var filename = files[i];
@@ -38,5 +39,6 @@ fs.readdir(process.cwd(), (err, files) => {
     });
   }
   
+  // 递归的入口
   file(0);
 });
